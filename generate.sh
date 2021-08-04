@@ -124,7 +124,7 @@ function generate {
     echo ">>> ${component}.key contains privkey (the private key)"
 }
 
-for element in kafka client schemaregistry
+for element in kafka client
 do
   echo ""
   echo "Generate certificates and keys for ${element}"
